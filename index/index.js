@@ -6,7 +6,7 @@ const items = [
     {name: 'Phone', price:500},
     {name: 'Computer', price:1000},
 ];
-//1. Filter and show the product that will be bought when you don't have much money (Cheap one)
+//1. Filter and show the Cheap product
 const cheap = items.filter(item => item.price <=  10)
 console.log(cheap)
 
